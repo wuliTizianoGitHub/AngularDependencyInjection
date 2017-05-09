@@ -1,11 +1,12 @@
 {
-    "vsicons.presets.angular": true,
-    "typescript.tsdk": "node_modules/typescript/lib",
-
-    // ts 项目, 隐藏 .js 和 .js.map 文件
-    "files.exclude": {
-        "node_modules": true,
-        "**/*.js": { "when": "$(basename).ts" },
-        "**/*.js.map": true
-    }
+    "editor.fontSize": 15,
+    "[cpp]": {
+        "editor.quickSuggestions": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": false
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    "vsicons.presets.angular": true
 }
